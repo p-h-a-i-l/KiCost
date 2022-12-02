@@ -82,7 +82,7 @@ distributors_info = {
                 label=DistributorLabel('Farnell', 'https://www.farnell.com/', '#FF6600')),  # Farnell/E14 orange.
     'mouser': DistributorInfo(
                 order=DistributorOrder(
-                    url='https://mouser.com/bom/',
+                    url='https://mouser.com/price-availability/',
                     # header='Stock#|Quantity|Designators',
                     cols=['part_num', 'purch', 'refs'],
                     delimiter='|',

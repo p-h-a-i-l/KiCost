@@ -319,7 +319,7 @@ Row: 11
    0
   Formula: SUM(R11,X11)
  Col: N
-   <a href="https://mouser.com/bom/">Buy here</a>
+   <a href="https://mouser.com/price-availability/">Buy here</a>
  Col: O
   Formula: IFERROR(IF(COUNTIF(O7:O9,">0")>0,COUNTIF(O7:O9,">0")&" of "&(ROWS(Q7:Q9)-COUNTBLANK(Q7:Q9))&" parts purchased",""),"")
  Col: R

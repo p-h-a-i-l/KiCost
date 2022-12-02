@@ -696,7 +696,7 @@ Row: 15
    0
   Formula: SUMIF(AB7:AB13,">0",AE7:AE13)
  Col: AG
-   <a href="https://mouser.com/bom/">Buy here</a>
+   <a href="https://mouser.com/price-availability/">Buy here</a>
  Col: AH
   Formula: IFERROR(IF(COUNTIF(AH7:AH13,">0")>0,COUNTIF(AH7:AH13,">0")&" of "&(ROWS(AJ7:AJ13)-COUNTBLANK(AJ7:AJ13))&" parts purchased",""),"")
  Col: AK
